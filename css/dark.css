@@ -520,6 +520,23 @@ input, textarea, button, input[type="submit"] {
 	opacity: .8;
 }
 
+.project-technologies{
+	list-style: none !important;
+	margin-bottom: 2rem !important;
+}
+
+.project-technology{
+	display: inline-block !important;
+  margin: .3rem !important;
+  border: 1px solid #22262a !important;
+  padding: .5rem !important;
+  color: #bfc2c5 !important;
+  font-weight: light !important;
+  letter-spacing: 1px !important;
+	font-size: 0.8rem !important;
+	box-sizing: inherit !important;
+}
+
 .button .text {
 	padding-left: 0;
 }
