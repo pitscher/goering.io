@@ -520,19 +520,6 @@ input, textarea, button, input[type="submit"] {
 	opacity: .8;
 }
 
- /*
-.popup-button:active,
-.popup-button:focus,
-.popup-button:hover{
-	background-color: #fff !important;
-}
-
-.popup-button:disabled,
-.popup-button:disabled:hover{
-	background-color: hsla(0,0%,100%,.4) !important;
-  cursor: default !important;
-}
-*/
 .button .text {
 	padding-left: 0;
 }
