@@ -1,10 +1,4 @@
 /*
-*   Author: beshleyua
-*   Author URL: http://themeforest.net/user/beshleyua
-*/
-
-
-/*
 	Preloader
 */
 
