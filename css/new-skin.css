@@ -615,9 +615,7 @@ input[type="file"] {
 		-webkit-border-radius: 0 0 4px 0;
 		-khtml-border-radius: 0 0 4px 0;
 	}
-	.header .top-menu ul {
-		background: #fff;
-	}
+  /* Removed background(-color) of top-menu class to fix design bug on mobile devices */
 }
 
 /*
