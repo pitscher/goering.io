@@ -35,6 +35,7 @@ $(function () {
 		/* vars */
 		var width = $(window).width();
 		var id = $(this).attr('href');
+		//ignore normal links
 		if (!id.includes('#')){
 			return;
 		}
@@ -98,10 +99,12 @@ $(function () {
 				var scrollPos = $(window).scrollTop();
 				$('.top-menu ul li a').each(function () {
 					var currLink = $(this);
+					//ignore Normal Links
 					if (!currLink[0].attributes.href.value.includes('#')) {
 						return;
 					}
 					var refElement = $(currLink.attr("href"));
+					//changed scrollpos
 					if (refElement.offset().top <= scrollPos + 276) {
 						$('.top-menu ul li').removeClass("active");
 						currLink.closest('li').addClass("active");
