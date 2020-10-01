@@ -768,6 +768,10 @@ input[type="file"] {
 	.card-started .profile.no-photo .title {
 		margin-top: 200px;
 	}
+	/* Fix text input alignment/spacing on mobile devices */
+	.card-no-padding {
+		padding: 0 0 0 0;
+	}
 }
 
 @media (max-width: 560px) {
