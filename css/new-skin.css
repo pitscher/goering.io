@@ -770,7 +770,7 @@ input[type="file"] {
 	}
 	/* Fix text input alignment/spacing on mobile devices */
 	.card-no-padding {
-		padding: 0 0 0 0;
+		padding: 0 0 0 0 !important;
 	}
 }
 
