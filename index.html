@@ -1145,7 +1145,8 @@
 									</p>
 								</div>
 								<div class="contact_form">
-									<form id="cform" method="post">
+									<form data-bss-subject="GOERING.IO - Kontaktformular"
+										data-bss-recipient="8935cc8a2e96e20800416ff3ad73b8b2">
 										<div class="row">
 											<div class="col col-d-6 col-t-6 col-m-12">
 												<div class="group-val">
@@ -1164,15 +1165,9 @@
 											</div>
 										</div>
 										<div class="align-left">
-											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
-												<span class="text">Nachricht senden</span>
-												<span class="arrow"></span>
-											</a>
+											<button class="button" id="send-button" type="submit">Nachricht senden</button>
 										</div>
 									</form>
-									<div class="alert-success">
-										<p>Danke, Ihre Nachricht wurde erfolgreich gesendet.</p>
-									</div>
 								</div>
 							</div>
 							<div class="clear"></div>
@@ -1201,6 +1196,9 @@
 		Main Scripts
 	-->
 	<script src="js/scripts.js"></script>
+
+	<!-- Contact Form script -->
+	<script src="https://cdn.gdelivr.net/static/libs/contact-form/1.0.0/contact-form.min.js"></script>
 
 </body>
 
