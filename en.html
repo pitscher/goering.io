@@ -894,41 +894,38 @@
 															<li class="project-technology">Linux server</li>
 														</ul>
 														<p>
-															Corona ist eine Herausforderung (gewesen). Die Bundesregierung veranstaltete vom 20-22
-															März 2020 den Hackathon "WirVsVirus" - der bis dato größte seiner Art.
-															Es wurden Ideen/Projekte/Möglichkeiten gesucht, wie dem Virus begegnet werden kann.
+															Corona has been (is?) a challenge. The German government hosted the "WirVsVirus" hackathon
+															from March 20-22, 2020 the hackathon "WirVsVirus" - the largest of its kind.
+															Ideas/projects/possibilities were sought on how to counter the virus.
 														</p>
 														<p>
-															Ich habe mich als Mentor registriert, um andere Projektteilnehmer mit meinem Wissen und
-															IT-Ressourcen zu unterstüzen. Recht schnell bin ich bei dem Team von Karmakurier gelandet
-															das am Ende des Hackathons als eines der 150 besten Projekte von 1.500 ausgezeichnet wurde
-															und auch nach Ende des Events weitere Förderungen erhielt.
+															I have registered as a mentor to support some projects with my knowledge and
+															IT resources. I joined the team of "Karmakurier" which
+															was awarded at the end of the hackathon as one of the 150 best projects out of 1,500 and
+															received further funding beyond the hackathon.
 														</p>
 														<p>
-															Als Cloud Architekt arbeite ich an dem Aufbau einer hochskalierbaren Cloud-Infrastruktur
-															basierend auf Gridscale & AWS.
-															Das Einrichten von CI/CD-Funktionalitäten mittels GitHub Actions fällt ebenfalls in meinen
-															Verantwortungsbereich.
+															As a cloud architect, I worked on building a highly scalable cloud infrastructure based on
+															Gridscale & AWS. I also created CI/CD pipelines using GitHub Actions.
 														</p>
-														<p>Einige meiner Tätigkeitsschwerpunkte während des Projekts:</p>
+														<p>Some of my key activities during the project:</p>
 														<ul class="list-style">
-															<li>Richtete den Prototypbetrieb mittels Docker-Compose auf Azure-VM ein</li>
-															<li>Veranlasste Einrichtung von CloudFlare-Caching um für hohe Lastsituation während
-																Projektvorstellung vorbereitet zu sein</li>
-															<li>Führte Gespräche mit Mitarbeitern von Google, Microsoft & Amazon um Partner für
-																Betrieb der Staging-Umgebung zu finden</li>
-															<li>Fungierte als Ansprechpartner für die Themen Cloud & Infrastruktur für das Team und
-																externe Parteien</li>
-															<li>Führte Architektur-Session mit AWS Cloud Solutions Architect durch um Feedback bzgl.
-																eigens erstellter Architektur einzuholen</li>
+															<li>Set up a prototype using Docker compose on an Azure VM</li>
+															<li>Initiated setup of CloudFlare caching to be prepared for a high load scenario during
+																the public presentation of the project</li>
+															<li>Led discussions with Google, Microsoft & Amazon personnel to find partners to run the
+																staging environment</li>
+															<li>Acted as point of contact for cloud & infrastructure issues for the team and external
+																parties</li>
+															<li>Conducted well-architected session with AWS Cloud Solutions Architect to gather
+																feedback on the projects architecture</li>
 														</ul>
 														<p>
-															Die zwei Arbeitstage des Hackathons gingen zwar mit akutem Schlafmangel einher, waren
-															allerdings eine großartige Erfahrung. Ich habe viele neue Kontakte knüpfen und mein Wissen
-															einbringen können. Darüber hinaus konnte ich mir durch das Projekt neues Wissen in den
-															Gebieten AWS, Kubernetes, GitHub Actions und Bash-Skripting aneignen.
-															Da mir das Projekt am Herzen liegt, unterstütze ich es über das Ende des Hackathons
-															hinaus.
+															The two working days of the hackathon were accompanied by an serious lack of sleep, but
+															the experience was great. I made many new contacts and was able to contribute my
+															knowledge. In addition, I was able to gain new knowledge because of our projects setup in
+															the areas of AWS, Kubernetes, GitHub Actions and Bash scripting. Since the project is
+															close to my heart, I support it beyond the end of the hackathon.
 														</p>
 													</div>
 
@@ -977,48 +974,44 @@
 															<li class="project-technology">Git</li>
 														</ul>
 														<p>
-															Der Grandma Bot erlaubt das Versenden von aus einer Liste zufällig ausgewählten
-															Nachrichten als SMS über die Twilio API.
+															The Grandma Bot allows you to send randomly selected messages as a SMS via the Twilio API.
 														</p>
 														<p>
-															Meine Großmutter hatte mich vor geraumer Zeit ein weiteres Mal darauf hingewiesen, mich
-															doch bitte hin und wieder mit einer kurzen Nachricht bei ihr zu melden. Sie wollte wissen,
-															ob es mir gut geht. Ich schätze sie sehr, hatte in der Vergangenheit allerdings immer
-															wieder vergessen, mich bei ihr zu melden.
+															Some time ago, my grandmother had reminded me once again that I should contact
+															her from time to time with a short message. She wanted to know if I was doing well. I
+															appreciate her very much, but in the past I had always forgotten to contact her.
 														</p>
 														<p>
-															Aus dieser Not heraus ist der Grandma Bot als Wochenend-Projekt entstanden. Ich wollte den
-															Prozess des regelmäßigen Versendens einer "Hier ist alles okay"-Nachricht automatisieren.
-															Aus einer Liste mit vorgefertigten Textnachrichten wird nach Start des Bots eine zufällige
-															Nachricht ausgewählt und als SMS versandt.
+															Because of this, the Grandma Bot was created as a weekend project. I wanted to automate
+															the process of sending a regular "everything is okay here" message. From a
+															list of predefined text messages, a random message is selected and sent as a SMS. Super
+															simple.
 														</p>
 														<p>
-															Hier eine kurze Übersicht der Funktionen und Besonderheiten:
+															Here is a brief overview of the features:
 														</p>
 														<ul class="list-style">
-															<li>Bot sendet eine Nachricht und beendet sich anschließend wieder</li>
-															<li>Modus zur Überprüfung aller in einer txt-Datei bereitgestellten Nachrichten kann
-																aktiviert werden</li>
-															<li>Vom Nutzer vorgefertigte Nachrichten werden auf Gültigkeit/Eignung für SMS-Versand
-																geprüft</li>
-															<li>Versenden via Twilio mit abfangen unterschiedlicher Fehler seitens Twilio oder des
-																Nutzers</li>
-															<li>Gut nachvollziehbarer Ablauf durch verständliche Ausgaben auf der Konsole</li>
-															<li>Betriebsmöglichkeiten: nativ, Docker/k8s, serverless</li>
-															<li>Regelmäßige Ausführung (z.B. wöchentlich) mit CRON oder timed cloud functions einfach
-																umsetzbar</li>
+															<li>Bot sends a message and exits if done</li>
+															<li>Mode for checking all messages provided in a txt file can be be activated</li>
+															<li>Messages created by the user are checked for validity/suitability so that they can be
+																sent as a SMS</li>
+															<li>Using the Twilio SMS API while handling errors that could arise</li>
+															<li>Well comprehensible procedure due to understandable outputs on the console</li>
+															<li>Operating options: native, Docker/k8s, serverless</li>
+															<li>Regular execution (e.g. weekly) with CRON or timed cloud functions can be implemented
+																easily</li>
 														</ul>
 														<p>
-															Das Tool funktioniert problemlos. Allerdings haben mich meine ethischen Grundsätze
-															schlussendlich von einem tatsächlichen Einsatz abgehalten. Als ich meiner Großmutter den
-															Grandma Bot vorgestellte, war sie erstaunt zu sehen, was mit einem Computer
-															heutzutage alles möglich ist. Gleichzeitig wies sie mich darauf hin, dass ein Blumenstrauß
-															als Entschuldigung (würde ich einen Praxiseinsatz planen) gar nicht groß genug
-															hätte sein können.
+															The tool works without any problems. However, my ethical principles ultimately prevented
+															me from actually using it. When I introduced my grandmother to the Grandma Bot, she was
+															amazed to see what can be done with a computer these days. At the same time, she pointed
+															out that a bouquet of flowers could not have been big enough as an excuse (if I would
+															really use the bot).
 														</p>
 														<p>
-															Letztendlich habe ich mein Wissen über JavaScript durch dieses Projekt etwas schärfen und
-															im Familien- sowie Bekanntenkreis für das ein oder andere Schmunzeln sorgen können.
+															In the end, I have build up my knowledge of JavaScript through this project. I was able to
+															cause a smile or two among my family and friends while introducing them to what I have
+															built.
 														</p>
 													</div>
 
